@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MyQuiz Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // SEU CODIGO AQUI
+    const firebaseConfig = {
+      apiKey: "AIzaSyB7GGqS5UKykyNM41tnuVaU1XevRRkSPpo",
+      authDomain: "projeto38-ed189.firebaseapp.com",
+      databaseURL: "https://projeto38-ed189-default-rtdb.firebaseio.com",
+      projectId: "projeto38-ed189",
+      storageBucket: "projeto38-ed189.appspot.com",
+      messagingSenderId: "984086628163",
+      appId: "1:984086628163:web:22ce311a3dcb81d1d191f6",
+      measurementId: "G-8D8DPLKHKX"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+  <script src="js/Contestant.js"></script>
+  <script src="js/Question.js"></script>
+  <script src="js/Quiz.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
